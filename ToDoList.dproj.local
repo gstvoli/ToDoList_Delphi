@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/03/18 10:01:58.000.240,=C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/03/18 10:13:08.000.728,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\ToDoList.dproj</Transaction>
+    <Transaction>2025/03/18 10:14:25.000.398,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Projetos\Delphi\To Do List\uPrincipal.pas</Transaction>
+    <Transaction>2025/03/18 10:14:25.000.398,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Projetos\Delphi\To Do List\uPrincipal.dfm</Transaction>
+    <Transaction>2025/03/18 10:14:35.000.972,=C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/03/18 10:19:08.000.952,=C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/03/18 10:36:59.000.907,=C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/03/18 10:46:24.000.594,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Projetos\Delphi\To Do List\uCadUsuario.pas</Transaction>
+    <Transaction>2025/03/18 10:46:24.000.594,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Projetos\Delphi\To Do List\uCadUsuario.dfm</Transaction>
+    <Transaction>2025/03/18 10:47:19.000.959,=C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/03/18 10:48:48.000.015,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Projetos\Delphi\To Do List\uCadTarefa.dfm</Transaction>
+    <Transaction>2025/03/18 10:48:48.000.015,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Projetos\Delphi\To Do List\uCadTarefa.pas</Transaction>
+    <Transaction>2025/03/18 11:07:26.000.284,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Projetos\Delphi\To Do List\uUsuario.pas</Transaction>
+    <Transaction>2025/03/18 11:07:31.000.441,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Projetos\Delphi\To Do List\uTarefas.pas</Transaction>
+    <Transaction>2025/03/18 11:26:54.000.986,=C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/03/18 11:27:06.000.947,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Projetos\Delphi\To Do List\uUtils.pas</Transaction>
+    <Transaction>2025/03/18 11:31:44.000.659,=C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/03/18 11:31:50.000.010,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Projetos\Delphi\To Do List\uVar.pas</Transaction>
+    <Transaction>2025/03/18 11:38:52.000.774,=C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/03/18 11:47:36.000.422,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Projetos\Delphi\To Do List\uLogin.dfm</Transaction>
+    <Transaction>2025/03/18 11:47:36.000.422,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Projetos\Delphi\To Do List\uLogin.pas</Transaction>
+    <Transaction>2025/03/18 16:55:16.000.987,C:\Users\gustavosouza\Documents\Embarcadero\Studio\Projects\ToDoList.dproj=C:\Projetos\Delphi\To Do List\ToDoList.dproj</Transaction>
+    <Transaction>2025/03/18 17:09:23.000.599,=C:\Projetos\Delphi\To Do List\Unit1.pas</Transaction>
+    <Transaction>2025/03/18 17:14:52.000.353,C:\Projetos\Delphi\To Do List\Unit1.dfm=C:\Projetos\Delphi\To Do List\uDM.dfm</Transaction>
+    <Transaction>2025/03/18 17:14:52.000.353,C:\Projetos\Delphi\To Do List\Unit1.pas=C:\Projetos\Delphi\To Do List\uDM.pas</Transaction>
+    <Transaction>2025/03/19 08:52:02.352,=C:\Projetos\Delphi\To Do List\Unit1.pas</Transaction>
+    <Transaction>2025/03/19 08:57:46.022,C:\Projetos\Delphi\To Do List\DAO_Usuario.pas=C:\Projetos\Delphi\To Do List\Unit1.pas</Transaction>
+    <Transaction>2025/03/19 11:22:56.967,=C:\Projetos\Delphi\To Do List\Unit1.pas</Transaction>
+    <Transaction>2025/03/19 11:23:01.352,C:\Projetos\Delphi\To Do List\DAO_Tarefa.pas=C:\Projetos\Delphi\To Do List\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

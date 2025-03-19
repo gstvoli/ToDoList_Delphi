@@ -2,6 +2,9 @@ unit uUsuario;
 
 interface
 
+uses
+  System.Generics.Collections, uTarefas;
+
 type
   TUsuario = class
     private

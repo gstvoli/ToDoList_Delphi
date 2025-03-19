@@ -3,16 +3,16 @@ program ToDoList;
 uses
   Vcl.Forms,
   uPrincipal in 'uPrincipal.pas' {frmPrincipal},
-  uUsuario in 'uUsuario.pas',
-  uTarefas in 'uTarefas.pas',
-  uCadUsuario in 'uCadUsuario.pas' {frmCadUsuario},
-  uCadTarefa in 'uCadTarefa.pas' {frmCadTarefa},
-  uUtils in 'uUtils.pas',
-  uVar in 'uVar.pas',
   uLogin in 'uLogin.pas' {frmLogin},
-  uDM in 'uDM.pas' {DM: TDataModule},
-  DAO_Usuario in 'DAO_Usuario.pas',
-  DAO_Tarefa in 'DAO_Tarefa.pas';
+  uCadTarefa in 'cadastros\uCadTarefa.pas' {frmCadTarefa},
+  uCadUsuario in 'cadastros\uCadUsuario.pas' {frmCadUsuario},
+  uDM in 'data-module\uDM.pas' {DM: TDataModule},
+  uUtils in 'utils\uUtils.pas',
+  uVar in 'utils\uVar.pas',
+  DAO_Tarefa in 'DAO\DAO_Tarefa.pas',
+  DAO_Usuario in 'DAO\DAO_Usuario.pas',
+  uTarefas in 'models\uTarefas.pas',
+  uUsuario in 'models\uUsuario.pas';
 
 {$R *.res}
 
@@ -20,5 +20,8 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.CreateForm(TfrmCadTarefa, frmCadTarefa);
+  Application.CreateForm(TfrmCadUsuario, frmCadUsuario);
+  Application.CreateForm(TDM, DM);
   Application.Run;
 end.

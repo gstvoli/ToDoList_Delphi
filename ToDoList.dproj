@@ -104,29 +104,29 @@
             <Form>frmPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="uUsuario.pas"/>
-        <DCCReference Include="uTarefas.pas"/>
-        <DCCReference Include="uCadUsuario.pas">
-            <Form>frmCadUsuario</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
-        <DCCReference Include="uCadTarefa.pas">
-            <Form>frmCadTarefa</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
-        <DCCReference Include="uUtils.pas"/>
-        <DCCReference Include="uVar.pas"/>
         <DCCReference Include="uLogin.pas">
             <Form>frmLogin</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="uDM.pas">
+        <DCCReference Include="cadastros\uCadTarefa.pas">
+            <Form>frmCadTarefa</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="cadastros\uCadUsuario.pas">
+            <Form>frmCadUsuario</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="data-module\uDM.pas">
             <Form>DM</Form>
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
-        <DCCReference Include="DAO_Usuario.pas"/>
-        <DCCReference Include="DAO_Tarefa.pas"/>
+        <DCCReference Include="utils\uUtils.pas"/>
+        <DCCReference Include="utils\uVar.pas"/>
+        <DCCReference Include="DAO\DAO_Tarefa.pas"/>
+        <DCCReference Include="DAO\DAO_Usuario.pas"/>
+        <DCCReference Include="models\uTarefas.pas"/>
+        <DCCReference Include="models\uUsuario.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

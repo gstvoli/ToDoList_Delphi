@@ -9,7 +9,7 @@ uses
   FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.VCLUI.Wait,
   Data.DB, FireDAC.Comp.Client, FireDAC.Stan.Param, FireDAC.DatS,
   FireDAC.DApt.Intf, FireDAC.DApt, FireDAC.Comp.DataSet, uDM,
-  Vcl.Controls, Vcl.Dialogs, DAO_Usuario, uUsuario;
+  Vcl.Controls, Vcl.Dialogs, DAO_Usuario, uUsuario, Winapi.Windows;
 
   procedure abrirMenu(form: TForm; formClass: TFormClass); overload;
   procedure PassarParametro(DataSet: TFDQuery; Valores: array of variant; AbrirCDS: Boolean = True);
@@ -17,6 +17,7 @@ uses
   function ifElse(condicao : boolean; retorno1, retorno2: Variant) : Variant; overload;
   function Erro(Mensagem: String): TModalResult;
   function ValidaUsuario(lEmail, lSenha: string) : TUsuario;
+  function Perguntar(Pergunta: String): Boolean;
 
 implementation
 
@@ -121,6 +122,14 @@ begin
   else
     Result := retorno2;
 
+end;
+
+function Perguntar(Pergunta: String): Boolean;
+begin
+  if Application.MessageBox(PWideChar(Pergunta), PWideChar('Teste'), MB_ICONQUESTION + MB_YESNO + MB_DEFBUTTON2) = idYes then
+    Result := True
+  else
+    Result := False;
 end;
 
 end.

@@ -1,7 +1,7 @@
 object frmCadTarefa: TfrmCadTarefa
   Left = 0
   Top = 0
-  Caption = 'frmCadTarefa'
+  Caption = 'Cadastrar Tarefa'
   ClientHeight = 291
   ClientWidth = 375
   Color = clBtnFace
@@ -20,8 +20,6 @@ object frmCadTarefa: TfrmCadTarefa
     Height = 291
     Align = alClient
     TabOrder = 0
-    ExplicitLeft = -8
-    ExplicitWidth = 396
     object lblDesc: TLabel
       Left = 15
       Top = 65
@@ -56,7 +54,6 @@ object frmCadTarefa: TfrmCadTarefa
       Align = alBottom
       BevelOuter = bvNone
       TabOrder = 0
-      ExplicitWidth = 394
       object btnSalvar: TButton
         Left = 14
         Top = 0
